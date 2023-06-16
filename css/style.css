@@ -1,0 +1,60 @@
+body {
+    background-color: antiquewhite;
+}
+
+.container {
+    display: block;
+    width: 270px;
+    margin: 20px 43%;
+    background-color: gray;
+    height: 250px;
+    border: 3px solid black;
+}
+
+#topo {
+    width: auto;
+    margin-left: -50px;
+    margin-right: -8px;
+    margin-top: -20px;
+    height: 60px;
+    background-color: crimson;
+}
+
+.header {
+    padding-top: 10px;
+    font-family: 'Lato', monospace;
+    text-align: center;
+}
+
+.body {
+    margin-top: 60px;
+    padding-left: 15px;
+}
+
+#cpf::placeholder {
+    color: black;
+}
+
+#cpf {
+    background-color: gray;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: black solid 1px;
+    font-weight: bold;
+}
+
+#btValidar {
+    border: none;
+    font-weight: bold;
+    font-size: 17px;
+    font-style: oblique;
+    font-family: 'Lato', monospace;
+    background-color: gray;
+}
+
+.footer {
+    padding-top: 10px;
+    text-align: center;
+    color: rgb(122, 12, 12);
+}
